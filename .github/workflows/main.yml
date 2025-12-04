@@ -13,10 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'test'
-        run: pwd
+      - name: 'printing content '
+        run: ls
       
-      - name: 'test'
-        run: echo "hello"
+    
 
 
