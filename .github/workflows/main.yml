@@ -1,1 +1,22 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'test'
+        run: pwd
+      
+      - name: 'test'
+        run: echo "hello"
+
 
