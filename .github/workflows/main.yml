@@ -13,7 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing content '
+      - name: 'printing  before  '
+        run: ls
+
+      - uses: actions/checkout@v3
+      - name: 'printing after  '
         run: ls
       
     
